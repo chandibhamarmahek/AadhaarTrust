@@ -33,7 +33,7 @@ function Login() {
     try {
       // Use auth context for login
       await login(formData.email, formData.password)
-      navigate('/')
+      navigate('/upload')
     } catch (err) {
       setError('Invalid email or password')
     }

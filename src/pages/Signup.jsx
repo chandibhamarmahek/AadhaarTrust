@@ -55,7 +55,7 @@ function Signup() {
     try {
       // Use auth context for signup
       await signup(formData.name, formData.email, formData.password)
-      navigate('/')
+      navigate('/upload')
     } catch (err) {
       setError('An error occurred. Please try again.')
     }
