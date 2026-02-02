@@ -132,6 +132,28 @@ body {
   animation-delay: 500ms;
 }
 
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+/* Enhanced transition utilities */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Shadow utilities */
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-strong {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16);
+}
+
 /* Image size constraints - prevent images from taking full page */
 img {
   max-width: 100%;
