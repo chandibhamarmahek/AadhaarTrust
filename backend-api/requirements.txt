@@ -1,0 +1,20 @@
+# ============================================================================
+# Backend API Requirements
+# ============================================================================
+# This file contains only the FastAPI backend dependencies.
+# For the complete project, use the root requirements.txt
+# ============================================================================
+
+# FastAPI Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Validation & Settings
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Note: The backend also requires the existing pipeline dependencies
+# (opencv-python, torch, ultralytics, etc.) which are in the root requirements.txt
+# Install them from the root directory for full functionality
